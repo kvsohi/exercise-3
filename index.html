@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <h1>Top YouTube Channels</h1>
-  <table>
+  <table style="width:100%">
+
     <!-- Table Headings -->
     <tr>
       <th>Rank</th>
@@ -106,22 +107,49 @@
     
 
   <!-- Table Caption -->
-    <caption>Data: <a href="https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels#50_most-subscribed_channels"target="_blank">Wikipedia</caption> </a>
+    <caption>Data: <a href="https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels#50_most-subscribed_channels"target="_blank">Wikipedia</caption>
    </table>
     <!-- Webform Question -->
   <p>Which of these YouTube channels have you watched before?</p>
   <!-- Webform Options -->
-  <ul>
-    <li>T-Series</li>
-    <li>MrBeast</li>
-    <li>Cocomelon</li>
-    <li>Sony Entertainment Television India</li>
-    <li>Kids Diana Show</li>
-    <li>PewDiePie</li>
-    <li>Like Nastya</li>
-    <li>Vlad and Niki</li>
-    <li>Zee Music Company</li>
-    <li>WWE</li>
-  </ul>
-</body>
+ 
+
+<form action="/action_page.php">
+  <fieldset>
+    
+    <input type="radio" id="T-Series" name="watched" value="T-Series">
+    <label for="T-Series">T-Series</label><br>
+
+    <input type="radio" id="MrBeast" name="watched" value="MrBeast">
+    <label for="MrBeast">MrBeast</label><br>
+
+    <input type="radio" id="Cocomelon" name="watched" value="Cocomelon">
+    <label for="Cocomelon">Cocomelon</label><br>
+
+    <input type="radio" id="SonyEntertainment" name="watched" value="Sony Entertainment Television India">
+    <label for="SonyEntertainment">Sony Entertainment Television India</label><br>
+
+    <input type="radio" id="KidsDiana" name="watched" value="Kids Diana Show">
+    <label for="KidsDiana">Kids Diana Show</label><br>
+
+    <input type="radio" id="PewDiePie" name="watched" value="PewDiePie">
+    <label for="PewDiePie">PewDiePie</label><br>
+
+    <input type="radio" id="LikeNastya" name="watched" value="Like Nastya">
+    <label for="LikeNastya">Like Nastya</label><br>
+
+    <input type="radio" id="VladNiki" name="watched" value="Vlad and Niki">
+    <label for="VladNiki">Vlad and Niki</label><br>
+
+    <input type="radio" id="ZeeMusic" name="watched" value="Zee Music Company">
+    <label for="ZeeMusic">Zee Music Company</label><br>
+
+    <input type="radio" id="WWE" name="watched" value="WWE">
+    <label for="WWE">WWE</label><br>
+  
+  </fieldset>
+  </form>
+
+  
+
 </html>
